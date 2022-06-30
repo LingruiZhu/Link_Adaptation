@@ -18,7 +18,7 @@ class Link_Simulation():
         self.resource_grid = sim_paras.resource_grid
         self.num_data_symbols = self.resource_grid.num_data_symbols
         self.num_bits_per_symbol = sim_paras.num_bits_per_symbol
-        self.batch_size = sim_paras.num_batches
+        self.batch_size = sim_paras.batch_size
         self.code_rate = sim_paras.code_rate
         self.num_code_bits = int(self.num_data_symbols * self.num_bits_per_symbol)
         self.num_info_bits = int(self.num_code_bits * self.code_rate)
@@ -112,32 +112,20 @@ class Link_Simulation():
         return decoded_bits
 
 
-if __name__ == "__main__":
-    # set up simulation parameters
-    resource_grid = ResourceGrid(num_ofdm_symbols=14,
-                                fft_size=76,
-                                subcarrier_spacing=30e3,
-                                num_tx=1,
-                                num_streams_per_tx=1,
-                                cyclic_prefix_length=6,
-                                pilot_pattern="kronecker",
-                                pilot_ofdm_symbol_indices=[2,11])
-    num_batches = 10
-    num_bits_per_symbol = 2
-    code_rate = 0.5
-    carrier_frequency = 2.6e9
-    ue_speed = 10
-    delay_spread = 100e-9
-    simulation_para1 = Simulation_Parameter(resource_grid, num_batches, num_bits_per_symbol, code_rate, 
-                                            carrier_frequency, ue_speed, delay_spread)
-    link_simulation = Link_Simulation(simulation_para1)
-    tx_symbols, info_bits = link_simulation.transmit()
-    rx_symbols, channel_freq = link_simulation.go_through_channel(tx_symbols, ebno_db=10)
-    decoded_bits = link_simulation.receive(rx_symbols, ebno_db=10)
-    print(info_bits.shape)
-    print(decoded_bits.shape)
-    print(tx_symbols.shape)
-    print(rx_symbols.shape)
+    def run(self, sim_paras:Simulation_Parameter):
+        # set up simulation parameters
+        resource_grid = ResourceGrid(num_ofdm_symbols=14,
+                                    fft_size=76,
+                                    subcarrier_spacing=30e3,
+                                    num_tx=1,
+                                    num_streams_per_tx=1,
+                                    cyclic_prefix_length=6,
+                                    pilot_pattern="kronecker",
+                                    pilot_ofdm_symbol_indices=[2,11])
+        tx_symbols, info_bits = self.transmit()
+        rx_symbols, channel_freq = self.go_through_channel(tx_symbols, ebno_db=10)
+        decoded_bits = self.receive(rx_symbols, ebno_db=10)
+
 
     
 
