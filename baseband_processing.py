@@ -26,7 +26,7 @@ class Link_Simulation():
         self.carrier_frequency = sim_paras.carrier_frequency
         self.delay_spread = sim_paras.delay_spread
 
-        # parameters for MIMO
+        # parameters for MIMO, but here everything is single. 
         self.num_UE = 1                     # single user and base station
         self.num_BS = 1
         self.num_UE_ANT = 1                 # both with single antenna
@@ -46,6 +46,16 @@ class Link_Simulation():
         self.mapper = Mapper(constellation=self.constellation)
         self.resource_grid_mapper = ResourceGridMapper(self.resource_grid)
         self.interleaver = RandomInterleaver()
+    
+
+    def update_mcs(self, modulation_order:int, code_rate:float):
+        self.num_bits_per_symbol = modulation_order
+        self.code_rate = code_rate
+        self.num_code_bits = int(self.num_data_symbols * self.num_bits_per_symbol)
+        self.num_info_bits = int(self.num_code_bits * self.code_rate)
+
+        self.__initialize_transmitter()
+        self.__initialize_receiver
 
 
     def __initialize_channel(self):
@@ -112,19 +122,13 @@ class Link_Simulation():
         return decoded_bits
 
 
-    def run(self, sim_paras:Simulation_Parameter):
+    def run(self, ebno_db):
         # set up simulation parameters
-        resource_grid = ResourceGrid(num_ofdm_symbols=14,
-                                    fft_size=76,
-                                    subcarrier_spacing=30e3,
-                                    num_tx=1,
-                                    num_streams_per_tx=1,
-                                    cyclic_prefix_length=6,
-                                    pilot_pattern="kronecker",
-                                    pilot_ofdm_symbol_indices=[2,11])
         tx_symbols, info_bits = self.transmit()
-        rx_symbols, channel_freq = self.go_through_channel(tx_symbols, ebno_db=10)
+        rx_symbols, channel_freq = self.go_through_channel(tx_symbols, ebno_db)
         decoded_bits = self.receive(rx_symbols, ebno_db=10)
+        bler = sn.utils.compute_ber(info_bits, decoded_bits)
+        return bler
 
 
     
