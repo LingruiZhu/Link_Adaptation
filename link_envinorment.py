@@ -12,6 +12,8 @@ class LinkEnvironment:
         
         
     def step(self, modulation_order, code_rate):
-        self.link_simulation.update_mcs(modulation_order=)
+        self.link_simulation.update_mcs(modulation_order=modulation_order, code_rate=code_rate)
+        
+
         
 
