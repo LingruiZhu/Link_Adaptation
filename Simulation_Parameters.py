@@ -1,6 +1,13 @@
-import code
 from dataclasses import dataclass
+import resource
 from sionna.ofdm import ResourceGrid
+from enum import Enum
+from sionna.ofdm.pilot_pattern import PilotPattern
+
+
+class Channel_Model(Enum):
+    AWGN = 1
+    CDL = 2
 
 
 class Simulation_Parameter:
@@ -11,7 +18,8 @@ class Simulation_Parameter:
                 code_rate:float=None,
                 carrier_frequency:float=None,
                 ue_speed:float=None,
-                delay_spread:float=None):
+                delay_spread:float=None,
+                channel_model:Channel_Model=Channel_Model.AWGN):
         self.resource_grid = resource_grid
         self.batch_size = batch_size
         self.num_bits_per_symbol = num_bits_per_symbol
@@ -19,6 +27,7 @@ class Simulation_Parameter:
         self.carrier_frequency = carrier_frequency
         self.ue_speed = ue_speed
         self.delay_spread = delay_spread
+        self.channel_model = channel_model
 
 
     def set_code_rate(self, code_rate):
@@ -31,6 +40,10 @@ class Simulation_Parameter:
 
     def set_batch_size(self, batch_size):
         self.batch_size = batch_size
+    
+
+    def set_channel_model(self, channel_model):
+        self.channel_model = channel_model
 
 
 def get_default_parameters(num_ofdm_symbols:int=14,
@@ -74,6 +87,8 @@ if __name__ == "__main__":
                                 cyclic_prefix_length=6,
                                 pilot_pattern="kronecker",
                                 pilot_ofdm_symbol_indices=[2, 11])
+    pilot_pattern = resouce_grid.pilot_pattern
+    pilots = pilot_pattern.return_pilots
     batch_size = 100
     num_bits_per_symbol = 4
     code_rate = 0.5

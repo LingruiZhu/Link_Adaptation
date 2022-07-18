@@ -3,7 +3,7 @@ from sionna.ofdm import ResourceGrid
 import numpy as np
 
 from baseband_processing import Link_Simulation
-from Simulation_Parameters import Simulation_Parameter
+from Simulation_Parameters import Simulation_Parameter, Channel_Model
 from MCS_and_CQI import ModulationCodingScheme, ChannelQualityIndex
 
 def get_MCS():
@@ -46,12 +46,6 @@ def get_CQI():
     return cqi
 
 
-def get_CQI_test():
-    sinr = [0, 5]
-    cqi_code = [1, 2]
-    cqi_test = ChannelQualityIndex(cqi_code, sinr)
-    return cqi_test
-
 
 def single_MCS_simulation(modulation_order:int, code_rate:float, default_sim_paras:Simulation_Parameter, ebno_db:float):
     default_sim_paras.set_num_bits_per_symbol(modulation_order)
@@ -89,8 +83,10 @@ def main():
     code_rate = 0.5
     carrier_frequency = 2.6e9
     ue_speed = 0
-    delay_spread = 100e-9#
-    sim_para_default = Simulation_Parameter(resouce_grid, batch_size, num_bits_per_symbol, code_rate, carrier_frequency, ue_speed, delay_spread)
+    delay_spread = 100e-9
+    channel_model = Channel_Model.AWGN
+
+    sim_para_default = Simulation_Parameter(resouce_grid, batch_size, num_bits_per_symbol, code_rate, carrier_frequency, ue_speed, delay_spread, channel_model)
     
     # get CQI and MCS
     cqi_sinr = get_CQI()
@@ -103,7 +99,7 @@ def main():
         print("currently running the simulation for CQI ... {}".format(cqi_code))
         bler_dict_single_sinr = single_SNR_simulation(sim_para_default, mcs, sinr)
         sinr_mcs_bler_dict[cqi_code] = bler_dict_single_sinr
-    np.save("BLER_LUT_data/table3_LUT_CDL_channel.npy", sinr_mcs_bler_dict)
+    np.save("BLER_LUT_data/table3_LUT_AWGN_channel.npy", sinr_mcs_bler_dict)
 
 
 if __name__ == "__main__":

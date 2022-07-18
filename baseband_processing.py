@@ -1,5 +1,6 @@
 import sionna as sn
 import numpy as np
+import tensorflow as tf
 import matplotlib.pyplot as plt
 
 from sionna.mapping import Constellation, Mapper, Demapper
@@ -9,9 +10,11 @@ from sionna.utils import BinarySource, ebnodb2no, hard_decisions
 from sionna.ofdm import ResourceGrid, LMMSEEqualizer, ResourceGridMapper
 from sionna.ofdm.channel_estimation import LSChannelEstimator
 from sionna.mimo import StreamManagement
-from sionna.channel import ApplyOFDMChannel
+from sionna.channel import ApplyOFDMChannel, AWGN
+from sionna.ofdm.pilot_pattern import PilotPattern
 
-from Simulation_Parameters import Simulation_Parameter
+from Simulation_Parameters import Simulation_Parameter, Channel_Model
+from channel_data.read_channel_data import read_channel_data
 
 
 class Link_Simulation():
@@ -27,6 +30,7 @@ class Link_Simulation():
         self.ue_speed = sim_paras.ue_speed
         self.carrier_frequency = sim_paras.carrier_frequency
         self.delay_spread = sim_paras.delay_spread
+        self.channel_model = sim_paras.channel_model
 
         # parameters for MIMO, but here everything is single. 
         self.num_UE = 1                     # single user and base station
@@ -72,7 +76,10 @@ class Link_Simulation():
                                     direction=direction,
                                     min_speed=self.ue_speed,
                                     max_speed=self.ue_speed)
-        self.channel = sn.channel.OFDMChannel(CDL, self.resource_grid, add_awgn=True, normalize_channel=True, return_channel=True)
+        if self.channel_model == Channel_Model.CDL:
+            self.channel = sn.channel.OFDMChannel(CDL, self.resource_grid, add_awgn=True, normalize_channel=True, return_channel=True)
+        elif self.channel_model == Channel_Model.AWGN:
+            self.channel = AWGN()
 
 
     def __initialize_receiver(self):
@@ -141,6 +148,7 @@ class Link_Simulation():
     def go_through_channel_single_PRB(self, channel_matrix, tx_symbols, ebno_db):
         no = self.snr_to_noise_variance(ebno_db) 
         applied_channel = ApplyOFDMChannel()
+        channel_matrix = channel_matrix.astype("complex64")
         rx_symbols = applied_channel([tx_symbols, channel_matrix, no])
         return rx_symbols
     
@@ -151,12 +159,12 @@ class Link_Simulation():
         decoded_bits = self.receive(rx_symbols, ebno_db)
         ber = sn.utils.compute_ber(info_bits, decoded_bits)
         bler = sn.utils.compute_bler(info_bits, decoded_bits) 
-        # TODO: calculate the transmit bits and also return. Then use this function in link_enviroment step function. I am done today (7th June 2022)
-        return bler
+        ack = not bool(bler)
+        tsb_size = int(tf.size(info_bits))
+        return ber, bler, ack, tsb_size # TODO:here to add to calculate SINR and then CQI
 
 
-
-def main():
+def test_a():
     """Just a function to test Link Adaptation class """
 
     resouce_grid = ResourceGrid(num_ofdm_symbols=14,
@@ -175,6 +183,12 @@ def main():
     delay_spread = 100e-9#
     sim_para_default = Simulation_Parameter(resouce_grid, batch_size, num_bits_per_symbol, code_rate, carrier_frequency, ue_speed, delay_spread)
     link_simulator = Link_Simulation(sim_paras=sim_para_default)
+
+    #TODO: here need a function  which reads data from .npy file.
+    data_file = "channel_data/CDL_channel.h5"
+    channel_data = read_channel_data(data_file, start_point=0, num_PRB=10)
+    channel_sample = channel_data[0:1,:]
+    ber, bler, ack, tsb_size = link_simulator.simulate_single_PRB(channel_sample, ebno_db=10)
     
     snrs = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     bler_list = list()
@@ -198,5 +212,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()    
+    test_a()    
     
