@@ -47,14 +47,15 @@ class Simulation_Parameter:
 
 
 def get_default_parameters(num_ofdm_symbols:int=14,
-                           fft_size:int=76,
+                           fft_size:int=72,
                            subcarrier_spacing:float=30e3,
                            num_tx:int=1,
                            num_rx:int=1,
                            num_stream_per_tx=1,
                            cyclic_prefix_length=6,
                            pilot_pattern="kronecker",
-                           pilot_ofdm_symbol_indices=[2, 11]
+                           pilot_ofdm_symbol_indices=[2, 11],
+                           num_guard_carriers=[5,6]
                            ):
     default_resouce_grid = ResourceGrid(num_ofdm_symbols=num_ofdm_symbols,
                                 fft_size=fft_size,
@@ -63,7 +64,9 @@ def get_default_parameters(num_ofdm_symbols:int=14,
                                 num_streams_per_tx=num_stream_per_tx,
                                 cyclic_prefix_length=cyclic_prefix_length,
                                 pilot_pattern=pilot_pattern,
-                                pilot_ofdm_symbol_indices=pilot_ofdm_symbol_indices)
+                                pilot_ofdm_symbol_indices=pilot_ofdm_symbol_indices,
+                                num_guard_carriers=num_guard_carriers,
+                                dc_null=True)
     default_paras = Simulation_Parameter(resource_grid=default_resouce_grid,
                                          batch_size=1,
                                          num_bits_per_symbol=4,

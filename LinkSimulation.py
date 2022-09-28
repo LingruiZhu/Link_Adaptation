@@ -2,6 +2,8 @@ import sionna as sn
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
+import math
+import h5py
 
 from sionna.mapping import Constellation, Mapper, Demapper
 from sionna.fec.ldpc import LDPC5GEncoder, LDPC5GDecoder, LDPCBPDecoder
@@ -10,11 +12,13 @@ from sionna.utils import BinarySource, ebnodb2no, hard_decisions
 from sionna.ofdm import ResourceGrid, LMMSEEqualizer, ResourceGridMapper
 from sionna.ofdm.channel_estimation import LSChannelEstimator
 from sionna.mimo import StreamManagement
-from sionna.channel import ApplyOFDMChannel, AWGN
+from sionna.channel import ApplyOFDMChannel, AWGN, GenerateOFDMChannel
 from sionna.ofdm.pilot_pattern import PilotPattern
 
 from Simulation_Parameters import Simulation_Parameter, Channel_Model
 from channel_data.read_channel_data import read_channel_data
+
+from MCS_and_CQI import get_CQI, get_MCS
 
 
 class Link_Simulation():
@@ -26,11 +30,12 @@ class Link_Simulation():
         self.batch_size = sim_paras.batch_size
         self.code_rate = sim_paras.code_rate
         self.num_code_bits = int(self.num_data_symbols * self.num_bits_per_symbol)
-        self.num_info_bits = int(self.num_code_bits * self.code_rate)
+        self.num_info_bits = math.floor(self.num_code_bits * self.code_rate)
         self.ue_speed = sim_paras.ue_speed
         self.carrier_frequency = sim_paras.carrier_frequency
         self.delay_spread = sim_paras.delay_spread
         self.channel_model = sim_paras.channel_model
+        self.cqi_table = get_CQI()
 
         # parameters for MIMO, but here everything is single. 
         self.num_UE = 1                     # single user and base station
@@ -87,17 +92,16 @@ class Link_Simulation():
         self.lmmse_equalizer = LMMSEEqualizer(self.resource_grid, self.stream_management)
         self.demapper = Demapper("app", "qam", self.num_bits_per_symbol)
         self.deinterleaver = Deinterleaver(self.interleaver)
-        self.ldpc_decoder = LDPC5GDecoder(self.ldpc_encoder, hard_out=True)
+        self.ldpc_decoder = LDPC5GDecoder(self.ldpc_encoder, hard_out=True, return_infobits=True)
 
 
-    def update_mcs(self, modulation_order:int, code_rate:float):
-        self.num_bits_per_symbol = modulation_order
+    def update_mcs(self, num_bits_per_symbol:int, code_rate:float):
+        self.num_bits_per_symbol = num_bits_per_symbol
         self.code_rate = code_rate
         self.num_code_bits = int(self.num_data_symbols * self.num_bits_per_symbol)
         self.num_info_bits = int(self.num_code_bits * self.code_rate)
-
         self.__initialize_transmitter()
-        self.__initialize_receiver
+        self.__initialize_receiver()
 
 
     def snr_to_noise_variance(self, ebno_dB):
@@ -121,8 +125,12 @@ class Link_Simulation():
 
     def go_through_channel(self, tx_symbols, ebno_db):
         no = self.snr_to_noise_variance(ebno_db)
-        rx_symbols, h_freq = self.channel([tx_symbols, no])
-        return rx_symbols, h_freq
+        if self.channel_model == Channel_Model.AWGN:
+            rx_symbols = self.channel([tx_symbols, no])
+            return rx_symbols
+        else:
+            rx_symbols, h_freq = self.channel([tx_symbols, no])
+            return rx_symbols, h_freq
         
 
     def receive(self, rx_symbols, ebno_db):
@@ -136,16 +144,15 @@ class Link_Simulation():
 
 
     def run(self, ebno_db):
-        # set up simulation parameters
         tx_symbols, info_bits = self.transmit()
-        rx_symbols, channel_freq = self.go_through_channel(tx_symbols, ebno_db)
+        rx_symbols = self.go_through_channel(tx_symbols, ebno_db)
         decoded_bits = self.receive(rx_symbols, ebno_db=10)
         ber = sn.utils.compute_ber(info_bits, decoded_bits)
         bler = sn.utils.compute_bler(info_bits, decoded_bits)
         return ber, bler
 
     
-    def go_through_channel_single_PRB(self, channel_matrix, tx_symbols, ebno_db):
+    def go_through_channel_single_PRB_given_channel(self, channel_matrix, tx_symbols, ebno_db):
         no = self.snr_to_noise_variance(ebno_db) 
         applied_channel = ApplyOFDMChannel()
         channel_matrix = channel_matrix.astype("complex64")
@@ -155,13 +162,28 @@ class Link_Simulation():
 
     def simulate_single_PRB(self, channel_matrix, ebno_db):
         tx_symbols, info_bits = self.transmit(batch_size=1)
-        rx_symbols = self.go_through_channel_single_PRB(channel_matrix, tx_symbols, ebno_db)
+        rx_symbols = self.go_through_channel_single_PRB_given_channel(channel_matrix, tx_symbols, ebno_db)
         decoded_bits = self.receive(rx_symbols, ebno_db)
         ber = sn.utils.compute_ber(info_bits, decoded_bits)
         bler = sn.utils.compute_bler(info_bits, decoded_bits) 
         ack = not bool(bler)
         tsb_size = int(tf.size(info_bits))
         return ber, bler, ack, tsb_size # TODO:here to add to calculate SINR and then CQI
+    
+
+    def simulate_single_PRB_random_channel(self, ebno_db):
+        tx_symbols, info_bits = self.transmit(batch_size=1)
+        rx_symbols, h_freq = self.go_through_channel(tx_symbols, ebno_db)
+        decoded_bits = self.receive(rx_symbols, ebno_db)
+        ber = sn.utils.compute_ber(info_bits, decoded_bits)
+        bler = sn.utils.compute_bler(info_bits, decoded_bits) 
+        ack = not bool(bler)
+        tsb_size = int(tf.size(info_bits))
+        ebno = 10**(ebno_db/10)
+        effective_ebno = np.mean(np.absolute(h_freq)**2) * ebno
+        effective_ebno_db = 10*math.log10(effective_ebno)
+        cqi = self.cqi_table.decide_cqi_from_sinr(effective_ebno_db)
+        return ack, tsb_size, cqi
 
 
 def test_a():
@@ -212,5 +234,8 @@ def test_a():
 
 
 if __name__ == "__main__":
-    test_a()    
-    
+    # test_a()    
+    list_a = [1, 2, 3, 4]
+    target = 2.5
+    b = np.array(list_a) - target
+    print(b)

@@ -74,7 +74,7 @@ def save_channel_data(h_freq_rb_scale:np.ndarray, ch_type:Channel_type, sim_para
 def generate_channel(channel_type:Channel_type,sim_paras:Simulation_Parameter, num_ofdm_symbols:int, num_resource_block:int):
     # define resource grid
     resource_grid = ResourceGrid(num_ofdm_symbols=num_ofdm_symbols*num_resource_block,
-                                 fft_size=76,
+                                 fft_size=72,
                                  subcarrier_spacing=30e3,
                                  num_tx=1,
                                  num_streams_per_tx=1,

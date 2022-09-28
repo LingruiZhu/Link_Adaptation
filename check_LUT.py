@@ -1,5 +1,8 @@
 import numpy as np
+import h5py
 
-npy_file = "BLER_LUT_data/table3_LUT_CDL_channel.npy"
-result_data = np.load(npy_file, allow_pickle=True)
-result_data_dict = result_data.item()
+bler_file = h5py.File("BLER_LUT_data_simulation/table3_LUT_AWGN_simulation.h5", "r")
+print(bler_file.keys())
+sinr_mcs_bler_array = np.array(bler_file["sinr_mcs_bler_array"])
+sinr_list = list(bler_file.get("sinr_list"))
+print(np.shape(sinr_mcs_bler_array))

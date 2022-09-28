@@ -70,7 +70,6 @@ def determine_bler_at_sinr(snr_dB, awgn_data):
         else:
             index1 = np.max(np.argwhere(awgn_snr_range_dB < snr_dB))
             index2 = np.min(np.argwhere(awgn_snr_range_dB > snr_dB))
-
             bler_at_sinr[i] = ( bler[index1] + bler[index2]) / 2.0
 
     return bler_at_sinr
@@ -113,6 +112,7 @@ def determine_mcs_from_sinr(awgn_data, sinr_dB, bler_target):
 if __name__ == "__main__":
     awgn_data_file = "AWGN_DATASET.npy"
     awgn_data = np.load(awgn_data_file, allow_pickle=True)[ ( ) ]
+    print(awgn_data.keys())
 
     snr_vs_bler = awgn_data['snr_vs_per']
     snr_range_dB = awgn_data['snr_range_dB']
