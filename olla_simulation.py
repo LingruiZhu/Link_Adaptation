@@ -1,7 +1,7 @@
 import numpy as np
 import h5py
 
-from olla_agent import OuterLoopLinkAdaptation
+from la_agent.olla_agent import OuterLoopLinkAdaptation
 from link_envinorment import LinkEnvironment
 
 

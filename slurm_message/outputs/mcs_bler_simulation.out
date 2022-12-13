@@ -1,7700 +1,1023 @@
-“Tue Sep 20 10:49:48 UTC 2022: Start jobs for user zhu on node fuchu!”
-“Run jobID=1348 on slurmNode=fuchu NodeList=[fuchu]”
+“Mon Nov 7 15:47:24 UTC 2022: Start jobs for user zhu on node fuchu!”
+“Run jobID=1857 on slurmNode=fuchu NodeList=[fuchu]”
 tf.Tensor(720, shape=(), dtype=int32)
-currently running the simulation for CQI ... 1
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for CQI ... 2
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for CQI ... 3
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for CQI ... 4
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for CQI ... 5
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for CQI ... 6
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for CQI ... 7
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for CQI ... 8
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for CQI ... 9
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for CQI ... 10
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for CQI ... 11
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for CQI ... 12
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for CQI ... 13
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for CQI ... 14
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for CQI ... 15
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-tf.Tensor(720, shape=(), dtype=int32)
-currently running the simulation for sinr ... -10.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -9.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -9.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -8.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -8.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -7.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -7.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -6.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -6.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -5.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -5.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -4.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -4.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -3.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -3.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -2.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -2.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -1.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -1.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... -0.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 0.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 0.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 1.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 1.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 2.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 2.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 3.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 3.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 4.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 4.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
 currently running the simulation for sinr ... 5.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 5.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 6.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 6.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 7.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 7.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 8.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 8.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 9.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 9.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 10.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 10.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 11.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 11.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 12.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 12.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 13.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 13.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 14.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 14.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 15.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 15.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 16.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 16.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 17.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 17.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 18.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 18.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 19.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 19.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 20.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 20.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 21.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 21.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 22.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 22.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 23.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 23.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 24.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 24.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 25.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 25.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 26.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 26.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 27.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 27.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 28.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 28.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 29.0 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-currently running the simulation for sinr ... 29.5 dB
-in the transmiter:
-352 1440
-In the receiver part:
-352 1440
-in the transmiter:
-433 1440
-In the receiver part:
-433 1440
-in the transmiter:
-532 1440
-In the receiver part:
-532 1440
-in the transmiter:
-631 1440
-In the receiver part:
-631 1440
-in the transmiter:
-739 1440
-In the receiver part:
-739 1440
-in the transmiter:
-846 1440
-In the receiver part:
-846 1440
-in the transmiter:
-956 2880
-In the receiver part:
-956 2880
-in the transmiter:
-1063 2880
-In the receiver part:
-1063 2880
-in the transmiter:
-1220 2880
-In the receiver part:
-1220 2880
-in the transmiter:
-1378 2880
-In the receiver part:
-1378 2880
-in the transmiter:
-1555 2880
-In the receiver part:
-1555 2880
-in the transmiter:
-1732 2880
-In the receiver part:
-1732 2880
-in the transmiter:
-1847 4320
-In the receiver part:
-1847 4320
-in the transmiter:
-1965 4320
-In the receiver part:
-1965 4320
-in the transmiter:
-2181 4320
-In the receiver part:
-2181 4320
-in the transmiter:
-2392 4320
-In the receiver part:
-2392 4320
-in the transmiter:
-2598 4320
-In the receiver part:
-2598 4320
-in the transmiter:
-2809 4320
-In the receiver part:
-2809 4320
-in the transmiter:
-3033 4320
-In the receiver part:
-3033 4320
-in the transmiter:
-3256 4320
-In the receiver part:
-3256 4320
-“Tue Sep 20 12:00:32 UTC 2022: Finished jobs!”
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+tf.Tensor(720, shape=(), dtype=int32)
+currently running the simulation for sinr ... 5.0 dB
+currently running the simulation for sinr ... 5.2 dB
+currently running the simulation for sinr ... 5.4 dB
+currently running the simulation for sinr ... 5.6000000000000005 dB
+currently running the simulation for sinr ... 5.800000000000001 dB
+currently running the simulation for sinr ... 6.000000000000001 dB
+currently running the simulation for sinr ... 6.200000000000001 dB
+currently running the simulation for sinr ... 6.400000000000001 dB
+currently running the simulation for sinr ... 6.600000000000001 dB
+currently running the simulation for sinr ... 6.800000000000002 dB
+currently running the simulation for sinr ... 7.000000000000002 dB
+currently running the simulation for sinr ... 7.200000000000002 dB
+currently running the simulation for sinr ... 7.400000000000002 dB
+currently running the simulation for sinr ... 7.600000000000002 dB
+currently running the simulation for sinr ... 7.8000000000000025 dB
+currently running the simulation for sinr ... 8.000000000000004 dB
+currently running the simulation for sinr ... 8.200000000000003 dB
+currently running the simulation for sinr ... 8.400000000000002 dB
+currently running the simulation for sinr ... 8.600000000000003 dB
+currently running the simulation for sinr ... 8.800000000000004 dB
+currently running the simulation for sinr ... 9.000000000000004 dB
+currently running the simulation for sinr ... 9.200000000000003 dB
+currently running the simulation for sinr ... 9.400000000000004 dB
+currently running the simulation for sinr ... 9.600000000000005 dB
+currently running the simulation for sinr ... 9.800000000000004 dB
+currently running the simulation for sinr ... 10.000000000000004 dB
+currently running the simulation for sinr ... 10.200000000000005 dB
+currently running the simulation for sinr ... 10.400000000000006 dB
+currently running the simulation for sinr ... 10.600000000000005 dB
+currently running the simulation for sinr ... 10.800000000000004 dB
+currently running the simulation for sinr ... 11.000000000000005 dB
+currently running the simulation for sinr ... 11.200000000000006 dB
+currently running the simulation for sinr ... 11.400000000000006 dB
+currently running the simulation for sinr ... 11.600000000000005 dB
+currently running the simulation for sinr ... 11.800000000000006 dB
+currently running the simulation for sinr ... 12.000000000000007 dB
+currently running the simulation for sinr ... 12.200000000000006 dB
+currently running the simulation for sinr ... 12.400000000000006 dB
+currently running the simulation for sinr ... 12.600000000000007 dB
+currently running the simulation for sinr ... 12.800000000000008 dB
+currently running the simulation for sinr ... 13.000000000000007 dB
+currently running the simulation for sinr ... 13.200000000000006 dB
+currently running the simulation for sinr ... 13.400000000000007 dB
+currently running the simulation for sinr ... 13.600000000000009 dB
+currently running the simulation for sinr ... 13.800000000000008 dB
+currently running the simulation for sinr ... 14.000000000000007 dB
+currently running the simulation for sinr ... 14.200000000000008 dB
+currently running the simulation for sinr ... 14.40000000000001 dB
+currently running the simulation for sinr ... 14.600000000000009 dB
+currently running the simulation for sinr ... 14.800000000000008 dB
+“Tue Nov 8 01:05:14 UTC 2022: Finished jobs!”

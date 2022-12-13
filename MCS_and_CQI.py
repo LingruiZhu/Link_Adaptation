@@ -11,7 +11,7 @@ class ModulationCodingScheme:
         self.__tbs = tbs
         self.__sort_out_code_rate()
     
-
+    
     def __sort_out_code_rate(self):
         indices = [i for i in range(len(self.__code_rate)) if self.__code_rate[i] > 1/5 and self.__code_rate[i] < 11/12]
         self.code_rate = self.__take_elements(self.__code_rate, indices)
@@ -75,6 +75,29 @@ def get_CQI():
             14.1, 16.3, 18.7, 21.0, 22.7]
     cqi_code = [1, 2, 3, 4, 5 ,6 ,7, 8, 9, 10,
                 11, 12, 13, 14, 15]
+    cqi = ChannelQualityIndex(cqi_code, sinr)
+    return cqi
+
+
+def get_MCS_customized():
+    num_bits_per_symbol = [2, 2, 2, 2, 2, \
+                           4, 4, 4, 4, 4, \
+                           6, 6, 6, 6, 6]
+    code_rate = [0.3, 0.4, 0.5, 0.6, 0.7, \
+                 0.3, 0.4, 0.5, 0.6, 0.7, \
+                 0.3, 0.4, 0.5, 0.6, 0.7]
+    mcs_index = [0, 1, 2, 3, 4, 5, \
+                 6, 7, 8, 9, 10, 11, \
+                 12, 13, 14]
+    num_data_symbols = 720
+    tbs_size = [math.floor(num_data_symbols*num_bits*c_rate) for num_bits, c_rate in zip(num_bits_per_symbol, code_rate)]
+    mcs = ModulationCodingScheme(code_rate=code_rate, num_bits_per_symbol=num_bits_per_symbol, mcs_index=mcs_index, tbs=tbs_size)
+    return mcs
+
+
+def get_CQI_customized():
+    sinr = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    cqi_code = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
     cqi = ChannelQualityIndex(cqi_code, sinr)
     return cqi
 

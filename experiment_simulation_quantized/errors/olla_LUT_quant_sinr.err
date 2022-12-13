@@ -1,0 +1,14 @@
+2022-11-30 12:20:53.205188: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+simulation_template.py:161: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if agent_name is "OLLA_DQN_v1":
+simulation_template.py:163: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif agent_name is "OLLA_DQN_v2":
+simulation_template.py:165: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  elif agent_name is "OLLA":
+Traceback (most recent call last):
+  File "simulation_template.py", line 172, in <module>
+    la_simulation()
+  File "simulation_template.py", line 146, in la_simulation
+    file_name = generate_file_name()
+TypeError: generate_file_name() missing 5 required positional arguments: 'agent_name', 'num_trails', 'cqi_interval', 'num_quant_bits', and 'cqi_delay'
+srun: error: funchal: task 0: Exited with exit code 1

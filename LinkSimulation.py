@@ -149,6 +149,7 @@ class Link_Simulation():
         decoded_bits = self.receive(rx_symbols, ebno_db=10)
         ber = sn.utils.compute_ber(info_bits, decoded_bits)
         bler = sn.utils.compute_bler(info_bits, decoded_bits)
+        tf.keras.backend.clear_session()
         return ber, bler
 
     

@@ -1,4 +1,3 @@
-from operator import mod
 from sionna.ofdm import ResourceGrid
 import numpy as np
 import math
@@ -6,7 +5,7 @@ import h5py
 
 from LinkSimulation import Link_Simulation
 from Simulation_Parameters import Simulation_Parameter, Channel_Model
-from MCS_and_CQI import ModulationCodingScheme, ChannelQualityIndex, get_MCS, get_CQI
+from MCS_and_CQI import ModulationCodingScheme, ChannelQualityIndex, get_CQI_customized, get_MCS, get_CQI, get_MCS_customized
 
 
 def get_default_rg():
@@ -90,9 +89,9 @@ def simulate_BLER_for_mcs():
     bler_file.close()
 
 
-def simulate_BLER_for_simulation():
+def simulate_BLER_for_simulation_single(index_num:int):
     resource_grid = get_default_rg()
-    batch_size = 1000
+    batch_size = 1000 
     num_bits_per_symbol = 4
     code_rate = 0
     carrier_frequency = 2.6e9
@@ -104,28 +103,33 @@ def simulate_BLER_for_simulation():
         ue_speed, delay_spread, channel_model)
     
     # get CQI and MCS
-    sinr_list = np.arange(-10, 30, 0.5)
-    mcs = get_MCS()
+    sinr_list = np.arange(5, 15, 0.2)
+    mcs = get_MCS_customized()
     sinr_mcs_bler_dict = dict()
     sinr_mcs_bler_list = list()
-
-    # save sinr list to .h5 file
-    bler_file = h5py.File("BLER_LUT_data_simulation/table3_LUT_AWGN_simulation.h5", "w")
-    bler_file.create_dataset("sinr_list", data=sinr_list)
 
     for sinr in sinr_list:
         print("currently running the simulation for sinr ... {} dB".format(sinr))
         bler_dict_single_sinr, bler_list_single_sinr = single_SNR_simulation(sim_para_default, mcs, sinr)
         sinr_mcs_bler_dict[sinr] = bler_dict_single_sinr
         sinr_mcs_bler_list.append(bler_list_single_sinr)
-    # save result to .npy file
-    np.save("BLER_LUT_data_simulation/table3_LUT_AWGN_channel_full_sinr.npy", sinr_mcs_bler_dict)
+
     # save result to .h5 file
+    h5_file_name = "LUT_bler_collection/LUT_AWGN_simulation_customized_" + str(index_num) + ".h5"
+    bler_file = h5py.File(h5_file_name, "w")
+    bler_file.create_dataset("sinr_list", data=sinr_list)
     sinr_mcs_bler_array = np.array(sinr_mcs_bler_list)
     bler_file.create_dataset("sinr_mcs_bler_array", data=sinr_mcs_bler_array)
     bler_file.close()
 
 
+def simulate_BLER_for_simulation():
+    num_simulations = 20
+    for i in range(num_simulations):
+        simulate_BLER_for_simulation_single(index_num=i)
+    return 
+    
+
 if __name__ == "__main__":
-    simulate_BLER_for_mcs()
+    # simulate_BLER_for_mcs()
     simulate_BLER_for_simulation()

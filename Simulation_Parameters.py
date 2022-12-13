@@ -8,6 +8,7 @@ from sionna.ofdm.pilot_pattern import PilotPattern
 class Channel_Model(Enum):
     AWGN = 1
     CDL = 2
+    TDL = 3
 
 
 class Simulation_Parameter:
