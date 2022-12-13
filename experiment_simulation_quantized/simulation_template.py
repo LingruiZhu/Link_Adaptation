@@ -49,17 +49,17 @@ def olla_simulation_single_trail(olla_agent:OLLA_DQN_agent or OuterLoopLinkAdapt
     mcs_list = list()
     action_list = list()
     olla_sinr_list = list()
-    eff_sinr_list = list()
+    real_sinr_list = list()
     sinr_offset_list = list()
 
     for time_index in range(num_time_slots):
         ack, tbs_size, _, eff_sinr = lut_link_env.step(modu_order, code_rate)
-        eff_sinr_list.append(eff_sinr)
+        real_sinr_list.append(eff_sinr)
         
         # collect data for training DQN
         if len(ack_list)>1:
             if olla_agent.__class__.__name__ == "OLLA_DQN_agent" or olla_agent.__class__.__name__  ==  "OLLA_DQN_agent_simple":
-                olla_agent.add_memory(sinr=eff_sinr_list[-2],
+                olla_agent.add_memory(sinr=real_sinr_list[-2],
                               ack=ack_list[-1],
                               mcs_index=mcs_index,
                               action = action_index,
@@ -71,9 +71,9 @@ def olla_simulation_single_trail(olla_agent:OLLA_DQN_agent or OuterLoopLinkAdapt
         # update cqi every num_time slots
         if time_index % cqi_intervals == 0:
             if time_index - cqi_delay < 0:
-                sinr_feedback = sinr_quantizer(eff_sinr_list[0])
+                sinr_feedback = sinr_quantizer(real_sinr_list[0])
             else:
-                sinr_feedback = sinr_quantizer(eff_sinr_list[time_index-cqi_delay])
+                sinr_feedback = sinr_quantizer(real_sinr_list[time_index-cqi_delay])
                 
         if olla_agent.__class__.__name__ == "OLLA_DQN_agent":
             mcs_index, code_rate, modu_order, sinr_adjusted, action_index, sinr_offset = olla_agent.determine_mcs_action_from_sinr(sinr_feedback, ack)
@@ -94,7 +94,7 @@ def olla_simulation_single_trail(olla_agent:OLLA_DQN_agent or OuterLoopLinkAdapt
             loss_history = None
         else:
             loss_history = olla_agent.loss_history
-    return ack_list, tbs_list, sinr_list, mcs_list, olla_sinr_list, action_list, sinr_offset_list, loss_history
+    return ack_list, tbs_list, sinr_list, mcs_list, olla_sinr_list, action_list, sinr_offset_list, loss_history, real_sinr_list
 
 
 def OLLA_simulation(olla_agent, num_trails, num_time_slots, feedback_interval, num_quant_bits, cqi_delay:int, file_name:str, add_interference:bool):
@@ -106,9 +106,11 @@ def OLLA_simulation(olla_agent, num_trails, num_time_slots, feedback_interval, n
     action_result_list = list()
     sinr_offset_result_list = list()
     loss_history_result_list = list()
+    real_sinr_result_list = list()
 
     for idx_train in range(num_trails):
-        ack_list_single_trail, tbs_list_single_trail, sinr_feedback_list, mcs_list_single_trail, sinr_list_single_trail, action_list_single_trail, sinr_offset_list_single_trail, loss_history_single_trail = \
+        ack_list_single_trail, tbs_list_single_trail, sinr_feedback_list, mcs_list_single_trail, sinr_list_single_trail,\
+            action_list_single_trail, sinr_offset_list_single_trail, loss_history_single_trail, real_sinr_list_single_trail = \
             olla_simulation_single_trail(olla_agent, num_time_slots, cqi_intervals=feedback_interval, num_quant_bits=num_quant_bits,\
                 cqi_delay=cqi_delay, add_interference=add_interference)
         ack_result_list.append(ack_list_single_trail)
@@ -119,6 +121,7 @@ def OLLA_simulation(olla_agent, num_trails, num_time_slots, feedback_interval, n
         action_result_list.append(action_list_single_trail)
         sinr_offset_result_list.append(sinr_offset_list_single_trail)
         loss_history_result_list.append(loss_history_single_trail)
+        real_sinr_result_list.append(real_sinr_list_single_trail)
 
     # convert type of data
     ack_result_array = np.array(ack_result_list)
@@ -129,6 +132,7 @@ def OLLA_simulation(olla_agent, num_trails, num_time_slots, feedback_interval, n
     action_result_array = np.array(action_result_list)
     sinr_offset_result_array = np.array(sinr_offset_result_list)
     loss_history_result_array = np.array(loss_history_result_list)
+    real_sinr_result_array = np.array(real_sinr_result_list)
     
     if olla_agent.__class__.__name__ == "OLLA_DQN_agent":
         file_path = "results_v1/" + file_name +".h5"
@@ -146,6 +150,7 @@ def OLLA_simulation(olla_agent, num_trails, num_time_slots, feedback_interval, n
     olla_lut_file.create_dataset(name="feedback_interval", data=feedback_interval)
     olla_lut_file.create_dataset(name="action_index", data=action_result_array)
     olla_lut_file.create_dataset(name="sinr_offset", data = sinr_offset_result_array)
+    olla_lut_file.create_dataset(name="real_SINR", data=real_sinr_result_array)
     if loss_history_result_array[0].all() != None:
         olla_lut_file.create_dataset(name="loss_history", data=loss_history_result_array)
         check_here = 1
