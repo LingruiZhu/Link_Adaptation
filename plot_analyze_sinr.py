@@ -8,12 +8,14 @@ def plot_sinr(file_path:str, num_time_slots:int, trail_index:int=0):
     sinr_eff_array = np.array(result_file.get("SINR"))[trail_index, -num_time_slots:]
     sinr_feedback_array = np.array(result_file.get("SINR_feedback"))[trail_index, -num_time_slots:]
     sinr_offset_array = np.array(result_file.get("sinr_offset"))[trail_index, -num_time_slots:]
+    sinr_array = np.array(result_file.get(""))
     ACK_NACK_array = np.array(result_file.get("ACK"))[trail_index, -num_time_slots:]
     
     plt.figure()
     plt.subplot(2,1,1)
     plt.plot(sinr_eff_array, "r-x", label="SINR_eff")
     plt.plot(sinr_feedback_array, "b-x", label="SINR_feedback")
+    plt.plot()
     plt.xlabel("Time Slots")
     plt.ylabel("SINR_feedback")
     plt.legend()

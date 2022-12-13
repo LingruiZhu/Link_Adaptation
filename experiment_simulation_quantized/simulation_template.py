@@ -161,11 +161,11 @@ def la_simulation():
     # LA algorithms
     agent_name = "OLLA_DQN_v2"     # OLLA or OLLA_DQN_v1 or OLLA_DQN_v2
     ack_weight = 0
-    simulation_name = "reward_and_more_actions"
+    simulation_name = "simulation_1213"
     
     # simulation tuning
     num_trails = 20
-    num_time_slots = 5000
+    num_time_slots = 1000
     input_time_dimension = 4
     
     # cqi configuration
