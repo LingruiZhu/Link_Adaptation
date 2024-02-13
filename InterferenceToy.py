@@ -18,7 +18,6 @@ class InterferenceToy:
 
     def get_interference_time(self):
         interference = 0
-        index = self.time_instant % self.period
         if self.time_instant % (self.interval+self.period) < (self.starting_point + self.period):
             interference = self.h_factor * self.tx_power
         self.time_instant += 1

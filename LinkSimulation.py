@@ -21,8 +21,9 @@ from channel_data.read_channel_data import read_channel_data
 from MCS_and_CQI import get_CQI, get_MCS
 
 
-class Link_Simulation():
+class Link_Simulation(tf.keras.Model):
     def __init__(self, sim_paras:Simulation_Parameter):
+        super().__init__()
         # Set up parameters
         self.resource_grid = sim_paras.resource_grid
         self.num_data_symbols = self.resource_grid.num_data_symbols
@@ -152,6 +153,13 @@ class Link_Simulation():
         tf.keras.backend.clear_session()
         return ber, bler
 
+    
+    def call(self, batch_size, ebno_db):
+        tx_symbols, info_bits = self.transmit(batch_size)
+        rx_symbols = self.go_through_channel(tx_symbols, ebno_db)
+        decoded_bits = self.receive(rx_symbols, ebno_db=ebno_db)
+        return info_bits, decoded_bits
+        
     
     def go_through_channel_single_PRB_given_channel(self, channel_matrix, tx_symbols, ebno_db):
         no = self.snr_to_noise_variance(ebno_db) 

@@ -1,0 +1,4 @@
+“Fri Jan 20 11:02:18 UTC 2023: Start jobs for user zhu on node fuchu!”
+“Run jobID=2866 on slurmNode=fuchu NodeList=[fuchu]”
+Num GPUs Available:  1
+“Fri Jan 20 11:02:21 UTC 2023: Finished jobs!”

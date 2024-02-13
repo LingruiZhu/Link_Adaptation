@@ -1,0 +1,23 @@
+“Tue Feb 7 15:49:49 UTC 2023: Start jobs for user zhu on node fuchu!”
+“Run jobID=3004 on slurmNode=fuchu NodeList=[fuchu]”
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+tf.Tensor(720, shape=(), dtype=int32)
+“Tue Feb 7 20:07:01 UTC 2023: Finished jobs!”

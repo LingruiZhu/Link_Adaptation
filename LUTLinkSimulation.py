@@ -2,12 +2,17 @@ import numpy as np
 import h5py
 import math
 
+import sys
+sys.path.append("/home/zhu/Codes/link_abstractor")
+
 import sionna as sn
 from Simulation_Parameters import Simulation_Parameter, Channel_Model
 from sionna.channel import AWGN, GenerateOFDMChannel
 
 from MCS_and_CQI import get_CQI, get_MCS
 from InterferenceToy import InterferenceToy
+from LogisticLinkAbstractor import LogisticLinkAbstractor  # in the folder link abstractor.
+from SINRSequence import SINRSequence
 
 
 class LUT_Link_simulation:
@@ -52,11 +57,11 @@ class LUT_Link_simulation:
         self.__initialize_lut()
         
         # initialize the modulation and coding schemes 
-        mcs_table = get_MCS()
+        self.mcs_table = get_MCS()
         self.mcs_list = list()
-        for num_bits_symbol_element, code_rate_element in zip(mcs_table.number_bits_per_symbol, mcs_table.code_rate):
+        for num_bits_symbol_element, code_rate_element in zip(self.mcs_table.number_bits_per_symbol, self.mcs_table.code_rate):
             self.mcs_list.append((num_bits_symbol_element, code_rate_element))
-        self.tbs_list = mcs_table.tbs
+        self.tbs_list = self.mcs_table.tbs
 
         self.cqi_table = get_CQI()
         self.interference_list_time = list()
@@ -67,8 +72,11 @@ class LUT_Link_simulation:
 
         self.position = np.array([10, 0])
         self.motion_matrix = np.array([[0.992, -0.1247], [0.1247, 0.992]])
+        
+        self.link_abstractror = LogisticLinkAbstractor(parameter_file="/home/zhu/Codes/link_abstractor/bler_logistic_parameter.h5")
+        self.sinr_sequence = SINRSequence(file_path="SINR_sequence/embedding_loss_random_input_40_latent_20_num_embeddings_64_init_random_RMSprop_0.h5")
     
-
+    
     def update_position(self):
         self.position = np.matmul(self.motion_matrix, self.position) + np.random.normal(0, 0.1)
     
@@ -108,7 +116,13 @@ class LUT_Link_simulation:
             estimated_bler = left_bler + rate * (sinr - left_sinr)
         return estimated_bler
     
+    
+    def estimate_bler_link_abstractor(self, sinr, mcs_index):
+        mcs = self.mcs_table.mcs_index[mcs_index]
+        bler = self.link_abstractror.calculate_bler_with_MCS(sinr, mcs)
+        return bler
 
+        
     def calculate_channel_coefficient(self):
         # new_state = np.sum([i*j for i,j in zip(self.init_channel_state, self.channel_AR_coefficent)]) + np.random.normal(0, 0.001)
         # self.init_channel_state.append(new_state)
@@ -117,7 +131,7 @@ class LUT_Link_simulation:
         return new_state
 
 
-    def simulate_block_transmission(self, num_bits_per_symbol:int, code_rate:float, ebno_dB:float, interference_model:str=None):
+    def simulate_block_transmission(self, num_bits_per_symbol:int, code_rate:float, ebno_dB:float, interference_model:str=None, h5_file_path:str=None):
         # calculate the channel factor
         h_freq = self.calculate_channel_coefficient()
 
@@ -144,6 +158,12 @@ class LUT_Link_simulation:
             for inter_source in self.interference_list_space:
                 interference_power += inter_source.get_interference_space(self.position)
             eff_sinr_linear = norm_signal_power / (interference_power + norm_noise_power)
+        elif interference_model == "h5_file":
+            self.sinr_sequence.get_SINR_value
+            #TODO: read SINR sequence from h5 file
+            
+            pass
+            
             
         eff_sinr_db = 10*math.log10(eff_sinr_linear)
         cqi = self.cqi_table.decide_cqi_from_sinr(eff_sinr_db)
@@ -154,7 +174,9 @@ class LUT_Link_simulation:
         sinr_bler_column = self.bler_array[:, mcs_index]
 
         # find the sinr index near the sinr
-        estimated_bler = self.estimate_bler_from_sinr(eff_sinr_db, sinr_bler_column)
+        # estimated_bler_lut = self.estimate_bler_from_sinr(eff_sinr_db, sinr_bler_column)
+        estimated_bler = self.estimate_bler_link_abstractor(eff_sinr_db, mcs_index)
+        
         rnd_number = np.random.uniform()
         if rnd_number < estimated_bler:
             ack = 0     # transmission falied
@@ -166,3 +188,9 @@ class LUT_Link_simulation:
             return ack, tbs, cqi, eff_sinr_db, self.position
         else:
             return ack, tbs, cqi, eff_sinr_db
+    
+
+if __name__ == "__main__":
+    link_abstractor = LogisticLinkAbstractor(parameter_file="/home/zhu/Codes/link_abstractor/bler_logistic_parameter.h5")
+    print(link_abstractor.mcs_set)    
+    

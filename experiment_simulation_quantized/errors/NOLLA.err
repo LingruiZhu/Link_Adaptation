@@ -1,0 +1,39 @@
+2022-12-20 14:51:40.425869: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-12-20 14:51:53.606529: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-12-20 14:51:53.609342: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2022-12-20 14:51:53.675586: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:44:00.0 name: Quadro RTX 8000 computeCapability: 7.5
+coreClock: 1.77GHz coreCount: 72 deviceMemorySize: 47.46GiB deviceMemoryBandwidth: 625.94GiB/s
+2022-12-20 14:51:53.675614: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-12-20 14:51:54.010089: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-12-20 14:51:54.010170: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-12-20 14:51:54.178598: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-12-20 14:51:54.304021: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-12-20 14:51:54.540639: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-12-20 14:51:54.622819: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-12-20 14:51:55.387944: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-12-20 14:51:55.395598: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2022-12-20 14:51:55.396080: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-12-20 14:51:55.399724: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-12-20 14:51:55.402702: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:44:00.0 name: Quadro RTX 8000 computeCapability: 7.5
+coreClock: 1.77GHz coreCount: 72 deviceMemorySize: 47.46GiB deviceMemoryBandwidth: 625.94GiB/s
+2022-12-20 14:51:55.402735: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-12-20 14:51:55.402761: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-12-20 14:51:55.402775: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-12-20 14:51:55.402788: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-12-20 14:51:55.402800: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-12-20 14:51:55.402814: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-12-20 14:51:55.402826: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-12-20 14:51:55.402839: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-12-20 14:51:55.407845: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2022-12-20 14:51:55.409503: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-12-20 14:52:00.114183: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-12-20 14:52:00.114225: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2022-12-20 14:52:00.114234: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2022-12-20 14:52:00.126545: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 45390 MB memory) -> physical GPU (device: 0, name: Quadro RTX 8000, pci bus id: 0000:44:00.0, compute capability: 7.5)
+  0%|          | 0/20 [00:00<?, ?it/s]2022-12-20 14:52:01.288079: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2022-12-20 14:52:01.320486: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2600215000 Hz
+2022-12-20 14:52:01.480215: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+  5%|▌         | 1/20 [08:50<2:48:05, 530.84s/it] 10%|█         | 2/20 [17:39<2:38:55, 529.76s/it] 15%|█▌        | 3/20 [26:30<2:30:15, 530.30s/it] 20%|██        | 4/20 [35:21<2:21:27, 530.46s/it] 25%|██▌       | 5/20 [44:11<2:12:32, 530.18s/it] 30%|███       | 6/20 [53:00<2:03:39, 529.97s/it] 35%|███▌      | 7/20 [1:01:50<1:54:50, 530.04s/it] 40%|████      | 8/20 [1:10:42<1:46:04, 530.39s/it] 45%|████▌     | 9/20 [1:19:31<1:37:10, 530.05s/it] 50%|█████     | 10/20 [1:28:22<1:28:22, 530.24s/it] 55%|█████▌    | 11/20 [1:37:13<1:19:34, 530.49s/it] 60%|██████    | 12/20 [1:46:04<1:10:46, 530.83s/it] 65%|██████▌   | 13/20 [1:54:54<1:01:54, 530.59s/it] 70%|███████   | 14/20 [2:03:44<53:02, 530.34s/it]   75%|███████▌  | 15/20 [2:12:34<44:11, 530.26s/it] 80%|████████  | 16/20 [2:21:25<35:21, 530.48s/it] 85%|████████▌ | 17/20 [2:30:17<26:32, 530.81s/it] 90%|█████████ | 18/20 [2:39:08<17:41, 530.87s/it] 95%|█████████▌| 19/20 [2:47:59<08:51, 531.10s/it]100%|██████████| 20/20 [2:56:50<00:00, 531.13s/it]100%|██████████| 20/20 [2:56:50<00:00, 530.55s/it]

@@ -1,0 +1,39 @@
+2023-01-20 13:11:04.380393: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-01-20 13:11:06.217377: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-01-20 13:11:06.217998: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2023-01-20 13:11:06.285108: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:c3:00.0 name: Quadro RTX 8000 computeCapability: 7.5
+coreClock: 1.77GHz coreCount: 72 deviceMemorySize: 47.46GiB deviceMemoryBandwidth: 625.94GiB/s
+2023-01-20 13:11:06.285141: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-01-20 13:11:06.286544: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2023-01-20 13:11:06.286574: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2023-01-20 13:11:06.287892: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-01-20 13:11:06.288121: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-01-20 13:11:06.289306: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2023-01-20 13:11:06.290031: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2023-01-20 13:11:06.292528: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2023-01-20 13:11:06.297344: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2023-01-20 13:11:06.297670: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-01-20 13:11:06.300646: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-01-20 13:11:06.303255: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:c3:00.0 name: Quadro RTX 8000 computeCapability: 7.5
+coreClock: 1.77GHz coreCount: 72 deviceMemorySize: 47.46GiB deviceMemoryBandwidth: 625.94GiB/s
+2023-01-20 13:11:06.303275: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-01-20 13:11:06.303288: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2023-01-20 13:11:06.303297: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2023-01-20 13:11:06.303304: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-01-20 13:11:06.303312: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-01-20 13:11:06.303318: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2023-01-20 13:11:06.303325: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2023-01-20 13:11:06.303333: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2023-01-20 13:11:06.307558: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2023-01-20 13:11:06.307587: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-01-20 13:11:06.759110: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-01-20 13:11:06.759151: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2023-01-20 13:11:06.759157: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2023-01-20 13:11:06.765111: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 45390 MB memory) -> physical GPU (device: 0, name: Quadro RTX 8000, pci bus id: 0000:c3:00.0, compute capability: 7.5)
+  0%|          | 0/3 [00:00<?, ?it/s]2023-01-20 13:11:07.379928: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-01-20 13:11:07.401362: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2599910000 Hz
+2023-01-20 13:11:07.462623: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+ 33%|███▎      | 1/3 [17:29:11<34:58:23, 62951.62s/it] 67%|██████▋   | 2/3 [34:58:39<17:29:21, 62961.22s/it]100%|██████████| 3/3 [52:28:23<00:00, 62971.37s/it]   100%|██████████| 3/3 [52:28:23<00:00, 62967.67s/it]

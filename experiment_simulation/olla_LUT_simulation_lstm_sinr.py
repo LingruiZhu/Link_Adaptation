@@ -101,6 +101,7 @@ def olla_LUT_simulation_sinr_feedback(num_trails, num_time_slots, feedback_inter
     olla_lut_file.create_dataset(name="num_trails", data=num_trails)
     olla_lut_file.create_dataset(name="num_time_slots", data=num_time_slots)
     olla_lut_file.create_dataset(name="feedback_interval", data=feedback_interval)
+    
     olla_lut_file.close()
 
 

@@ -12,7 +12,7 @@ from la_agent.olla_dqn_agent import OLLA_DQN_agent
 class OLLA_DQN_agent_simple(OLLA_DQN_agent):
     def __init__(self, bler_target, data_file, olla_step_size=0.1, reliablity_weight=0, num_time_slots_q_network:int=0) -> None:
         super().__init__(bler_target, data_file, olla_step_size, reliablity_weight)
-        self.olla_offset_choices = [-1.0, -0.8, -0.6, -0.5, -0.4, -0.3, -0.2, -0.1, 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.8, 1.0]
+        self.olla_offset_choices = [-1.0, -0.5, -0.2, -0.1, 0, 0.1, 0.2, 0.5, 1.0]   # small action space
         self.action_size = len(self.olla_offset_choices)
         self.state_size = (num_time_slots_q_network) * 2
         self.num_time_slots_q_network = num_time_slots_q_network
@@ -23,6 +23,10 @@ class OLLA_DQN_agent_simple(OLLA_DQN_agent):
         self.ack_stack_for_predict = list()         # here to initialize them and then 
         self.sinr_stack_for_predict = list()
         
+
+    def get_action_list(self):
+        return self.olla_offset_choices
+
 
     def reset(self):
         super().reset()
@@ -67,7 +71,7 @@ class OLLA_DQN_agent_simple(OLLA_DQN_agent):
             reward = self.calculate_reward_value(ack_new, mcs_index)
             self.memory.append((old_state, action, reward, new_state))
             check_here = 1
-        print("Here is Son adding memory")
+
     
                         
         

@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from tensorflow.keras.layers import LSTM, Dense, Dropout, Input
 from tensorflow.keras.models import Sequential
 
+
 def read_data_set(keyword:str):
     file_path = "interference_data/channel_interference_1_2.h5"
     h5_file = h5py.File(file_path, "r")
@@ -60,7 +61,7 @@ def train_rnn_model(num_updates:int=None, update_interval:int=None):
     x_train, x_test = X[:20000, :], X[-2000:, :]
     y_train, y_test = Y[:20000, :], Y[-2000:, :]
 
-    rnn_model.fit(x_train, y_train, batch_size=512, epochs=40)
+    rnn_model.fit(x_train, y_train, batch_size=512, epochs=5)
     predicted = rnn_model.predict(x_test)
     mse = np.mean((predicted-y_test)**2)
 

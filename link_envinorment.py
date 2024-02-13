@@ -7,6 +7,7 @@ from Simulation_Parameters import Simulation_Parameter, get_default_parameters, 
 from MCS_and_CQI import get_MCS
 from InterferenceToy import InterferenceToy
 
+
 class LinkEnvironment:
     def __init__(self, ebno_db:float=10) -> None:
         # define link simulation 
@@ -24,7 +25,7 @@ class LinkEnvironment:
     
 
 class LutEnvironment:
-    def __init__(self, ebno_db:float=10) -> None:
+    def __init__(self, ebno_db:float=10, variant_sinr:bool=False) -> None:
         # define lut link simulation
                 # define link simulation 
         default_sim_paras = get_default_parameters()
@@ -34,7 +35,14 @@ class LutEnvironment:
         self.mcs_set = get_MCS()
         self.ebno_db = ebno_db
         self.interference_mode = None
-    
+        
+        self.variant_sinr = variant_sinr
+        self.simulated_sinr = self.ebno_db
+        self.sinr_variance_period = 300
+        self.step_count = 0
+        self.sinr_variance_count = 0
+        self.possible_sinr_set = [ebno_db, ebno_db+1, ebno_db-1]
+
 
     def add_interference_noise(self, interference_source:InterferenceToy):
         if self.interference_mode == "time":
@@ -50,14 +58,24 @@ class LutEnvironment:
             self.interference_mode = mode
         else:
             raise ValueError("Please set mode as time or space")
-
+    
+    
+    def change_sinr(self):
+        self.simulated_sinr = self.possible_sinr_set[self.sinr_variance_count]
+        self.sinr_variance_count += 1
+        self.sinr_variance_count = self.sinr_variance_count % len(self.possible_sinr_set)
+        
 
     def step(self, num_bits_per_symbol, code_rate):
+        self.step_count += 1
+        if self.step_count % self.sinr_variance_period == 0:
+            if self.variant_sinr:
+                self.change_sinr()
         if self.interference_mode == "space":
-            ack, tbs, cqi, eff_sinr, position = self.lut_simulation.simulate_block_transmission(num_bits_per_symbol, code_rate, self.ebno_db, self.interference_mode)    
+            ack, tbs, cqi, eff_sinr, position = self.lut_simulation.simulate_block_transmission(num_bits_per_symbol, code_rate, self.simulated_sinr, self.interference_mode)    
             return ack, tbs, cqi, eff_sinr, position
         else:
-            ack, tbs, cqi, eff_sinr = self.lut_simulation.simulate_block_transmission(num_bits_per_symbol, code_rate, self.ebno_db, self.interference_mode)
+            ack, tbs, cqi, eff_sinr = self.lut_simulation.simulate_block_transmission(num_bits_per_symbol, code_rate, self.simulated_sinr, self.interference_mode)
             return ack, tbs, cqi, eff_sinr
     
 

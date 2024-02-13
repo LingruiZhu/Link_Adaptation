@@ -104,6 +104,7 @@ def get_CQI_customized():
 
 def main():
     cqi_table = get_CQI()
+    MCS = get_MCS()
     cqi_code = cqi_table.decide_cqi_from_sinr(0)
     print(cqi_code)
     est_sinr = cqi_table.estimate_sinr_from_cqi(cqi_code)
